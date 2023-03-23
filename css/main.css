@@ -213,16 +213,24 @@ header {
 .bubble {
   background: linear-gradient(to right, rgb(9, 191, 18), rgb(0, 0, 0));
   border-radius: 100%;
+  display: flex;
+  align-items: center;
   position: relative;
-  left: 15px;
-  height: 2em;
-  width: 3em;
+  left: 12px;
+  bottom: 35px;
+  z-index: -1;
+  height: 3em;
+  width: 4em;
 }
 
 .border {
-  margin-left: 5em;
+  position: relative;
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(0, 0, 0));
+  margin-left: 4.5em;
+  bottom: 45px;
+  border-radius: 100%;
   width: 80%;
-  border: 1px solid rgb(255, 255, 255);
+  height: 3px;
 }
 
 .em {
@@ -230,7 +238,7 @@ header {
 }
 
 .thinking {
-  height: 50vh;
+  height: vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
