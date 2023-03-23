@@ -1,0 +1,1 @@
+{"version":3,"sources":["..\\sass\\main.sass"],"names":[],"mappings":"AAAQ,kGAAA","file":"main.css","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins&display=swap')\r\n//  1. Config files and helpers\r\n\r\n// 2. Vendor\r\n\r\n// 3. Base styles\r\n\r\n// 4. Layout\r\n\r\n// 5. Components\r\n"]}
